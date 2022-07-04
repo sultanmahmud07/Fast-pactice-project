@@ -9,11 +9,14 @@ body{
 }
 *{
   font-size: 16px;
+  margin: 0;
 }
 /* This is a top_section css-line comment */
 
 #top_banner_s{
-  margin-top: 20px;
+  background-image: url(image/top-banner.png);
+  background-repeat: no-repeat;
+
 }
 .conrain_wrapper {
   /* overflow: hidden; */
@@ -22,6 +25,10 @@ body{
 
 .lef_c {
   width: 50%;
+}
+#perker_name{
+  color: orange;
+  font-size: 60px;
 }
 
 .right_c {
@@ -34,23 +41,32 @@ body{
 
 .lef_c h1 {
   font-size: 50px;
-  margin-bottom: 52px;
+  margin-bottom: 30px;
+  margin-top: 70px;
 }
 
 .lef_c h3 {
   font-size: 26px;
   font-weight: 500;
+  margin-bottom: 20px;
 }
 
-.lef_c a {
+#button_link {
   text-decoration: none;
   color: black;
   text-transform: uppercase;
-  background-image: linear-gradient(45deg, red, #eeff0b);
+  background-image: linear-gradient(orange, tomato);
   color: white;
   padding: 10px 30px;
   font-size: 21px;
+  border-radius: 5px;
+  transition: 0.5s;
+
   /* margin-top: 260px; */
+}
+#button_link:hover{
+  color: black;
+  background-image: linear-gradient(rgb(232, 161, 31), rgb(211, 47, 18));
 }
 
 .lef_c p {
