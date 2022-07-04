@@ -135,6 +135,9 @@ section#experiance_s h1 {
   color: orange;
 }
 section#experiance_s {
+  background-image: url(image/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
   margin-bottom: 50px;
   margin-top: 77px;
 }
@@ -153,6 +156,7 @@ section#experiance_s h1 {
   width: 43%;
   padding-left: 37px;
   box-shadow: 0px 0px 39px -11px black;
+  border-left: 8px solid tomato;
 }
 
 .ex_box h1 {
@@ -160,7 +164,7 @@ section#experiance_s h1 {
 }
 
 .ex_box h2 {
-  font-size: 34px;
+  font-size: 35px;
   margin: 36px 0px;
 }
 
@@ -174,4 +178,7 @@ section#experiance_s h1 {
   color: gray;
   line-height: 23px;
   margin-bottom: 110px;
+}
+div#second_ex_box {
+  border-left: 8px solid blue;
 }
